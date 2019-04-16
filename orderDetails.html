@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/basic.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/introduction.js"></script>
+    <style>
+        .navigation{
+            overflow: hidden;
+            margin:30px 0px;
+        }
+        .navigation ul{
+            overflow: hidden;
+        }
+        .navigation li{
+            float: left;
+            margin-left: 30px;
+            font-size: 24px;
+        }
+        .main{
+            overflow: hidden;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+        .shopping{
+            overflow: hidden;
+        }
+        .shopping header{
+            margin-bottom: 20px;
+        }
+        .descphoto img{
+            width: 800px;
+            height: 500px;
+        }
+        .descphoto ul{
+            overflow: hidden;
+        }
+        .descphoto li{
+            float: left;
+            margin-right: 20px;
+        }
+        .descshopping{
+            float: right;
+            width: 600px;
+            height: 200px;
+            background: #D5E7CD;
+            margin:-530px 100px 0px 0px;
+        }
+        .descshopping p{
+            width: 450px;
+            font-size: 20px;
+            font-weight: 550;
+            margin:40px 50px 0px 80px;
+        }
+        .descshopping header{
+            text-align: center;
+            margin-top: 15px;
+            font-size: 28px;
+            font-weight: 550;
+            color:#7BC23A
+        }
+        .confirmorder{
+            width: 500px;
+            margin-left: 50px;
+            padding: 30px 0px 30px 0px;
+            background: #F2F2F2;
+        }
+        .confirmorder ul{
+            margin: 0px 0px 0px 90px;
+
+        }
+        .confirmorder li{
+            margin-bottom: 25px;
+        }
+        .confirmorder li span{
+            font-size: 20px;
+            font-weight: 550;
+        }
+        .confirmorder ul input{
+            margin-left: 40px;
+            height: 30px;
+            font-size: 24px;
+            border: #7BC23A solid 2px;
+            border-radius: 5px;
+        }
+        .confirmorder select{
+            margin-left: 40px;
+            height: 30px;
+            font-size: 16px;
+            width: 100px;
+            border: #7BC23A solid 2px;
+            border-radius: 5px;
+        }
+        #shoppingbtn{
+            background:#67C23A ;
+            width: 300px;
+            height: 40px;
+            border: rgb(58, 94, 194) solid 1px;
+            border-radius: 5px;
+            margin-left: 90px;
+            margin-top: 20px;
+            color: #ffffff;
+            font-weight: 550;
+        }
+        .productintr{
+            margin-top: 50px;
+            padding: 30px 0px 30px 30px;
+            background: #D5E7CD;
+        }
+        .productintr ul{
+            border-bottom: #6666 solid 2px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            padding-bottom: 5px;
+            width: 900px;
+        }
+        .productintr li{
+            float: left;
+            margin-right: 80px;
+            font-size: 24px;
+        }
+        .productphoto img{
+            width: 1450px;
+            height: 500px;
+        }
+        .productphoto p{
+            width: 1400px;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        .footer{
+            width: 100%;
+            overflow: hidden;
+            padding: 30px 0px 20px 0px;
+            background: #F1DCDC;
+        }
+        .footer div{
+            float: left;
+            margin-right: 150px;
+        }
+        .footer header{
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: 550;
+        }
+        .footer li{
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        #des{
+            margin-left: 200px;
+        }
+        #line{
+            width: 2px;
+            height: 180px;
+            background: rgb(95, 94, 94);
+            margin-left: 100px;
+        }
+        #attention{
+            margin-left: 100px;
+        }
+        #attention header{
+            text-align: center;
+        }
+        #attention img{
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li><a href="">首页</a></li>
+            <li><a href="">目的地</a></li>
+            <li><a href="">旅游商城</a></li>
+            <li><a href="">住宿</a></li>
+            <li><a href="">社区</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="shopping">
+            <header>旅游商城>今日推荐><span>色达</span></header>
+            <div class="descphoto">
+                <img src="images/sa.jpg" alt="">
+                <ul>
+                    <li>收藏</li>
+                    <li>分享</li>
+                </ul>
+            </div>
+            <div class="descshopping">
+                <div class="character">
+                    <p>佛国色达·红色信仰色达佛学院深度4日定制游
+                    （观色达佛学院红房子天葬台+看土拨鼠逗藏猴+ 
+                    半自驾游模式边走边玩+老司机带队放心出游）</p>
+                    <header>￥ 299</header>
+                </div>
+                <div class="confirmorder">
+                       <ul>
+                           <li><span>出行日期</span><input type="date"></li>
+                           <li><span>出行类型</span><select name="" id=""><option value="01">自由行</option><option value="02">组团行</option><option value="03">情侣行</option></select></li>
+                           <li><span>二级类型</span><select name="" id=""><option value="01">两天一夜</option><option value="02">一周游</option><option value="03">一月游</option></select></li>
+                           <li><span>住宿等级</span><select name="" id=""><option value="01">经济型</option><option value="02">普通型</option><option value="03">豪华型</option></select></li>
+                       </ul>
+                       <input type="button" value="立即购买" id="shoppingbtn">
+                </div>
+            </div> 
+        </div>
+        <div class="productintr">
+            <ul>
+                <li>产品介绍</li>
+                <li>费用说明</li>
+                <li>购买需知</li>
+                <li>用户点评</li>
+            </ul>
+            <div class="productphoto">
+                <img src="images/s2.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="des">
+            <header>目的地</header>
+            <ul>
+                <li><a href="">成都</a></li>
+                <li><a href="">乐山</a></li>
+                <li><a href="">峨眉</a></li>
+                <li><a href="">都江堰</a></li>
+                <li><a href="">九寨沟</a></li>
+            </ul>
+        </div>
+        <div>
+                <header>推荐网站</header>
+                <ul>
+                    <li><a href="">携程网</a></li>
+                    <li><a href="">飞猪网</a></li>
+                    <li><a href="">马蜂窝</a></li>
+                    <li><a href="">穷游网</a></li>
+                </ul>
+        </div>
+        <div>
+                <header>旅行服务</header>
+                <ul>
+                    <li><a href="">酒店</a></li>
+                    <li><a href="">机票</a></li>
+                    <li><a href="">跟团</a></li>
+                    <li><a href="">自由行</a></li>
+                </ul>
+        </div>
+        <div>
+                <header>信息中心</header>
+                <ul>
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">服务条款</a></li>
+                    <li><a href="">隐私政策</a></li>
+                    <li><a href="">加入我们</a></li>
+                </ul>
+        </div>
+        <div id="line"></div>
+        <div id="attention">
+            <header>关注我们</header>
+            <img src="images/erweima.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
