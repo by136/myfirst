@@ -1,0 +1,73 @@
+.left{
+    width: 600px;
+}
+.left img{
+    height: 600px;
+    width: 600px;
+}
+.right{
+    width: 600px;
+    height: 600px;
+    margin-left: 750px;
+    margin-top: -600px;
+}
+.logo img{
+   display: inline-block;
+    width: 50px;
+    height:50px;
+    margin-left: 280px;
+}
+.top{
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+#zhanghao{
+    width: 450px;
+    height: 50px;
+    margin-top:15px; 
+    position: relative;
+}
+#mima{
+    width: 450px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+#wenzi li a{
+    
+    text-decoration: none;
+    padding: 20px;
+}
+#wenzi li{
+    position: relative;
+    list-style: none;
+    float: left;
+    
+    margin-right: 100px;
+}
+ul{
+    float: right;
+}
+#wenzi{
+    position: relative;
+    margin-top: 40px;
+}
+#denglu{
+    width: 450px;
+    height: 50px;
+    border-radius: 2%;
+    background-color: rgb(60, 245, 60);
+    color: white;
+    font-size: 22px;
+    margin-top: 25px
+    
+}
+#zhuce{
+    position: relative;
+    margin-top: 25px;
+}
+#zhuce a{
+    text-decoration: none;
+}

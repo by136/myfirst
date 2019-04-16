@@ -1,0 +1,191 @@
+
+        body{
+            background-color: lightgray;
+        }
+        .navigation {
+            overflow: hidden;
+            margin: 30px 0px;
+        }
+
+        .navigation ul {
+            overflow: hidden;
+        }
+
+        .navigation li {
+            float: left;
+            margin-left: 30px;
+            font-size: 24px;
+        }
+        .head{
+            position: relative;
+        }
+        .head1 img{
+            height: 400px;
+            width: 100%;
+        }
+        .head2 img{
+            width: 100px;
+            height: 100px;
+        }
+        .head2{
+            margin-top: -250px;
+            text-align: center;
+        }
+        .banner{
+            margin-top: 150px;
+        }
+        .ban1{
+            width: 250px;
+            height: 80px;
+            background-color: white;
+            margin-left: 30px;
+        }
+        .guanzhu1 ul{
+            float: left;
+            margin-left: 15px;
+        }
+        .guanzhu1 li{
+            float: right;
+            padding: 18px;
+        }
+        .guanzhu2 ul{
+            float: left;
+            margin-top: -40px;
+        }
+        .guanzhu2 li{
+            float: right;
+            padding: 25px;
+        }
+        .ban2{
+            height: 50px;
+            width: 1000px;
+            background-color: white;
+            margin-left: 300px;
+            margin-top: -80px;
+        }
+        .ban2 ul{
+            float: left;
+            margin-left: 15px;
+            margin-top: -82px;
+        }
+        .ban2 li{
+            float: right;
+            padding: 40px;
+        }
+        .ban3{
+            width: 250px;
+            height: 350px;
+            background-color: white;
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+        .ban3 img{
+            width: 60px;
+            height: 60px;
+        }
+        .ban3 p{
+            display: inline-block;
+            margin-left: 80px;
+            margin-top: 15px;
+        }
+        .ban3 ul{
+            float: left;
+            margin-top: 35px;
+        }
+        .ban3 li{
+            float: right;
+            padding: 5px;
+            margin: 5px;
+        }
+        #ban4{
+            height: 400px;
+            width: 1000px;
+            margin-left: 300px;
+            margin-top: -500px;
+        }
+        .ban5{
+            width: 250px;
+            height: 200px;
+            background-color: white;
+            margin-left: 30px;
+        }
+        .ban5 p{
+            text-align: center;
+        }
+        .ban6{
+            height: 100px;
+            width: 1000px;
+            background-color: white;
+            margin-left: 300px;
+           margin-top: -200px;
+        }
+        .ban6 p{
+            display: block;
+            margin-top:-100px; 
+        }
+        #ban6{
+            height: 100px;
+            width: 1000px;
+        }
+        .ban7{
+            height: 350px;
+            width: 1000px;
+            background-color: white;
+            margin-left: 300px;
+            margin-top: 10px;
+        }
+        .ban7 ul{
+            float: left;
+        }
+        .ban7 li{
+            float: right;
+            padding: 10px;
+        }
+        .footer {
+            width: 100%;
+            overflow: hidden;
+            padding: 20px 0px 20px 0px;
+            background: #F1DCDC;
+            margin-top: 200px;
+        }
+
+        .footer div {
+            float: left;
+            margin-right: 150px;
+        }
+
+        .footer header {
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: 550;
+        }
+
+        .footer li {
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        #des {
+            margin-left: 100px;
+        }
+
+        #line {
+            width: 2px;
+            height: 180px;
+            background: rgb(95, 94, 94);
+            margin-left: 100px;
+        }
+
+        #attention {
+            margin-left: 1110px;
+            margin-top: -180PX;
+        }
+
+        #attention header {
+            text-align: center;
+        }
+
+        #attention img {
+            width: 150px;
+            height: 150px;
+        }
